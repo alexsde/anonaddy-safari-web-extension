@@ -1,0 +1,948 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0A913826932A5200DEAA51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A913726932A5200DEAA51 /* AppDelegate.swift */; };
+		FA0A913A26932A5200DEAA51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A913926932A5200DEAA51 /* SceneDelegate.swift */; };
+		FA0A913D26932A5200DEAA51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0A913B26932A5200DEAA51 /* LaunchScreen.storyboard */; };
+		FA0A914026932A5200DEAA51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0A913E26932A5200DEAA51 /* Main.storyboard */; };
+		FA0A914926932A5200DEAA51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A914826932A5200DEAA51 /* AppDelegate.swift */; };
+		FA0A914C26932A5200DEAA51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0A914A26932A5200DEAA51 /* Main.storyboard */; };
+		FA0A915326932A5200DEAA51 /* AnonAddy For Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA0A915226932A5200DEAA51 /* AnonAddy For Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA0A915D26932A5200DEAA51 /* AnonAddy For Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA0A915C26932A5200DEAA51 /* AnonAddy For Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA0A916226932A5200DEAA51 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FA0A911E26932A5100DEAA51 /* Main.html */; };
+		FA0A916326932A5200DEAA51 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FA0A911E26932A5100DEAA51 /* Main.html */; };
+		FA0A916426932A5200DEAA51 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912026932A5100DEAA51 /* Icon.png */; };
+		FA0A916526932A5200DEAA51 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912026932A5100DEAA51 /* Icon.png */; };
+		FA0A916626932A5200DEAA51 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912126932A5100DEAA51 /* Style.css */; };
+		FA0A916726932A5200DEAA51 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912126932A5100DEAA51 /* Style.css */; };
+		FA0A916826932A5200DEAA51 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912226932A5100DEAA51 /* Script.js */; };
+		FA0A916926932A5200DEAA51 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912226932A5100DEAA51 /* Script.js */; };
+		FA0A916A26932A5200DEAA51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A912326932A5100DEAA51 /* ViewController.swift */; };
+		FA0A916B26932A5200DEAA51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A912326932A5100DEAA51 /* ViewController.swift */; };
+		FA0A916C26932A5200DEAA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912426932A5200DEAA51 /* Assets.xcassets */; };
+		FA0A916D26932A5200DEAA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912426932A5200DEAA51 /* Assets.xcassets */; };
+		FA0A916E26932A5200DEAA51 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A912626932A5200DEAA51 /* SafariWebExtensionHandler.swift */; };
+		FA0A916F26932A5200DEAA51 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A912626932A5200DEAA51 /* SafariWebExtensionHandler.swift */; };
+		FA0A917026932A5200DEAA51 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912826932A5200DEAA51 /* _locales */; };
+		FA0A917126932A5200DEAA51 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912826932A5200DEAA51 /* _locales */; };
+		FA0A917226932A5200DEAA51 /* images in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912926932A5200DEAA51 /* images */; };
+		FA0A917326932A5200DEAA51 /* images in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912926932A5200DEAA51 /* images */; };
+		FA0A917426932A5200DEAA51 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912A26932A5200DEAA51 /* manifest.json */; };
+		FA0A917526932A5200DEAA51 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912A26932A5200DEAA51 /* manifest.json */; };
+		FA0A917626932A5200DEAA51 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912B26932A5200DEAA51 /* background.js */; };
+		FA0A917726932A5200DEAA51 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912B26932A5200DEAA51 /* background.js */; };
+		FA0A917826932A5200DEAA51 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912C26932A5200DEAA51 /* content.js */; };
+		FA0A917926932A5200DEAA51 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912C26932A5200DEAA51 /* content.js */; };
+		FA0A917A26932A5200DEAA51 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912D26932A5200DEAA51 /* popup.html */; };
+		FA0A917B26932A5200DEAA51 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912D26932A5200DEAA51 /* popup.html */; };
+		FA0A917C26932A5200DEAA51 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912E26932A5200DEAA51 /* popup.css */; };
+		FA0A917D26932A5200DEAA51 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912E26932A5200DEAA51 /* popup.css */; };
+		FA0A917E26932A5200DEAA51 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912F26932A5200DEAA51 /* popup.js */; };
+		FA0A917F26932A5200DEAA51 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FA0A912F26932A5200DEAA51 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0A915426932A5200DEAA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0A911826932A5100DEAA51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0A915126932A5200DEAA51;
+			remoteInfo = "AnonAddy For Safari Extension (iOS)";
+		};
+		FA0A915E26932A5200DEAA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0A911826932A5100DEAA51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0A915B26932A5200DEAA51;
+			remoteInfo = "AnonAddy For Safari Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA0A918526932A5200DEAA51 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA0A915326932A5200DEAA51 /* AnonAddy For Safari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A918C26932A5200DEAA51 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA0A915D26932A5200DEAA51 /* AnonAddy For Safari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA0A911F26932A5100DEAA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		FA0A912026932A5100DEAA51 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FA0A912126932A5100DEAA51 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		FA0A912226932A5100DEAA51 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		FA0A912326932A5100DEAA51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA0A912426932A5200DEAA51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0A912626932A5200DEAA51 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		FA0A912826932A5200DEAA51 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		FA0A912926932A5200DEAA51 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		FA0A912A26932A5200DEAA51 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		FA0A912B26932A5200DEAA51 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		FA0A912C26932A5200DEAA51 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		FA0A912D26932A5200DEAA51 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		FA0A912E26932A5200DEAA51 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		FA0A912F26932A5200DEAA51 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		FA0A913426932A5200DEAA51 /* AnonAddy For Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnonAddy For Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0A913726932A5200DEAA51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA0A913926932A5200DEAA51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA0A913C26932A5200DEAA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA0A913F26932A5200DEAA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA0A914126932A5200DEAA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0A914626932A5200DEAA51 /* AnonAddy For Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnonAddy For Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0A914826932A5200DEAA51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA0A914B26932A5200DEAA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA0A914D26932A5200DEAA51 /* AnonAddy For Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AnonAddy For Safari.entitlements"; sourceTree = "<group>"; };
+		FA0A915226932A5200DEAA51 /* AnonAddy For Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AnonAddy For Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0A915726932A5200DEAA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0A915C26932A5200DEAA51 /* AnonAddy For Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AnonAddy For Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0A916126932A5200DEAA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0A913126932A5200DEAA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A914326932A5200DEAA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A914F26932A5200DEAA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A915926932A5200DEAA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0A911726932A5100DEAA51 = {
+			isa = PBXGroup;
+			children = (
+				FA0A911C26932A5100DEAA51 /* Shared (App) */,
+				FA0A912526932A5200DEAA51 /* Shared (Extension) */,
+				FA0A913626932A5200DEAA51 /* iOS (App) */,
+				FA0A914726932A5200DEAA51 /* macOS (App) */,
+				FA0A915626932A5200DEAA51 /* iOS (Extension) */,
+				FA0A916026932A5200DEAA51 /* macOS (Extension) */,
+				FA0A913526932A5200DEAA51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0A911C26932A5100DEAA51 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A912326932A5100DEAA51 /* ViewController.swift */,
+				FA0A912426932A5200DEAA51 /* Assets.xcassets */,
+				FA0A911D26932A5100DEAA51 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		FA0A911D26932A5100DEAA51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A911E26932A5100DEAA51 /* Main.html */,
+				FA0A912026932A5100DEAA51 /* Icon.png */,
+				FA0A912126932A5100DEAA51 /* Style.css */,
+				FA0A912226932A5100DEAA51 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA0A912526932A5200DEAA51 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A912626932A5200DEAA51 /* SafariWebExtensionHandler.swift */,
+				FA0A912726932A5200DEAA51 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		FA0A912726932A5200DEAA51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A912826932A5200DEAA51 /* _locales */,
+				FA0A912926932A5200DEAA51 /* images */,
+				FA0A912A26932A5200DEAA51 /* manifest.json */,
+				FA0A912B26932A5200DEAA51 /* background.js */,
+				FA0A912C26932A5200DEAA51 /* content.js */,
+				FA0A912D26932A5200DEAA51 /* popup.html */,
+				FA0A912E26932A5200DEAA51 /* popup.css */,
+				FA0A912F26932A5200DEAA51 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA0A913526932A5200DEAA51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A913426932A5200DEAA51 /* AnonAddy For Safari.app */,
+				FA0A914626932A5200DEAA51 /* AnonAddy For Safari.app */,
+				FA0A915226932A5200DEAA51 /* AnonAddy For Safari Extension.appex */,
+				FA0A915C26932A5200DEAA51 /* AnonAddy For Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0A913626932A5200DEAA51 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A913726932A5200DEAA51 /* AppDelegate.swift */,
+				FA0A913926932A5200DEAA51 /* SceneDelegate.swift */,
+				FA0A913B26932A5200DEAA51 /* LaunchScreen.storyboard */,
+				FA0A913E26932A5200DEAA51 /* Main.storyboard */,
+				FA0A914126932A5200DEAA51 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		FA0A914726932A5200DEAA51 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A914826932A5200DEAA51 /* AppDelegate.swift */,
+				FA0A914A26932A5200DEAA51 /* Main.storyboard */,
+				FA0A914D26932A5200DEAA51 /* AnonAddy For Safari.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		FA0A915626932A5200DEAA51 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A915726932A5200DEAA51 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		FA0A916026932A5200DEAA51 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A916126932A5200DEAA51 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0A913326932A5200DEAA51 /* AnonAddy For Safari (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A918626932A5200DEAA51 /* Build configuration list for PBXNativeTarget "AnonAddy For Safari (iOS)" */;
+			buildPhases = (
+				FA0A913026932A5200DEAA51 /* Sources */,
+				FA0A913126932A5200DEAA51 /* Frameworks */,
+				FA0A913226932A5200DEAA51 /* Resources */,
+				FA0A918526932A5200DEAA51 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0A915526932A5200DEAA51 /* PBXTargetDependency */,
+			);
+			name = "AnonAddy For Safari (iOS)";
+			productName = "AnonAddy For Safari (iOS)";
+			productReference = FA0A913426932A5200DEAA51 /* AnonAddy For Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0A914526932A5200DEAA51 /* AnonAddy For Safari (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A918D26932A5200DEAA51 /* Build configuration list for PBXNativeTarget "AnonAddy For Safari (macOS)" */;
+			buildPhases = (
+				FA0A914226932A5200DEAA51 /* Sources */,
+				FA0A914326932A5200DEAA51 /* Frameworks */,
+				FA0A914426932A5200DEAA51 /* Resources */,
+				FA0A918C26932A5200DEAA51 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0A915F26932A5200DEAA51 /* PBXTargetDependency */,
+			);
+			name = "AnonAddy For Safari (macOS)";
+			productName = "AnonAddy For Safari (macOS)";
+			productReference = FA0A914626932A5200DEAA51 /* AnonAddy For Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0A915126932A5200DEAA51 /* AnonAddy For Safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A918226932A5200DEAA51 /* Build configuration list for PBXNativeTarget "AnonAddy For Safari Extension (iOS)" */;
+			buildPhases = (
+				FA0A914E26932A5200DEAA51 /* Sources */,
+				FA0A914F26932A5200DEAA51 /* Frameworks */,
+				FA0A915026932A5200DEAA51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnonAddy For Safari Extension (iOS)";
+			productName = "AnonAddy For Safari Extension (iOS)";
+			productReference = FA0A915226932A5200DEAA51 /* AnonAddy For Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FA0A915B26932A5200DEAA51 /* AnonAddy For Safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A918926932A5200DEAA51 /* Build configuration list for PBXNativeTarget "AnonAddy For Safari Extension (macOS)" */;
+			buildPhases = (
+				FA0A915826932A5200DEAA51 /* Sources */,
+				FA0A915926932A5200DEAA51 /* Frameworks */,
+				FA0A915A26932A5200DEAA51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnonAddy For Safari Extension (macOS)";
+			productName = "AnonAddy For Safari Extension (macOS)";
+			productReference = FA0A915C26932A5200DEAA51 /* AnonAddy For Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0A911826932A5100DEAA51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FA0A913326932A5200DEAA51 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FA0A914526932A5200DEAA51 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FA0A915126932A5200DEAA51 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FA0A915B26932A5200DEAA51 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FA0A911B26932A5100DEAA51 /* Build configuration list for PBXProject "AnonAddy For Safari" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0A911726932A5100DEAA51;
+			productRefGroup = FA0A913526932A5200DEAA51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0A913326932A5200DEAA51 /* AnonAddy For Safari (iOS) */,
+				FA0A914526932A5200DEAA51 /* AnonAddy For Safari (macOS) */,
+				FA0A915126932A5200DEAA51 /* AnonAddy For Safari Extension (iOS) */,
+				FA0A915B26932A5200DEAA51 /* AnonAddy For Safari Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0A913226932A5200DEAA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A916426932A5200DEAA51 /* Icon.png in Resources */,
+				FA0A913D26932A5200DEAA51 /* LaunchScreen.storyboard in Resources */,
+				FA0A916226932A5200DEAA51 /* Main.html in Resources */,
+				FA0A916826932A5200DEAA51 /* Script.js in Resources */,
+				FA0A916C26932A5200DEAA51 /* Assets.xcassets in Resources */,
+				FA0A914026932A5200DEAA51 /* Main.storyboard in Resources */,
+				FA0A916626932A5200DEAA51 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A914426932A5200DEAA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A916526932A5200DEAA51 /* Icon.png in Resources */,
+				FA0A916726932A5200DEAA51 /* Style.css in Resources */,
+				FA0A914C26932A5200DEAA51 /* Main.storyboard in Resources */,
+				FA0A916926932A5200DEAA51 /* Script.js in Resources */,
+				FA0A916D26932A5200DEAA51 /* Assets.xcassets in Resources */,
+				FA0A916326932A5200DEAA51 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A915026932A5200DEAA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A917626932A5200DEAA51 /* background.js in Resources */,
+				FA0A917C26932A5200DEAA51 /* popup.css in Resources */,
+				FA0A917A26932A5200DEAA51 /* popup.html in Resources */,
+				FA0A917226932A5200DEAA51 /* images in Resources */,
+				FA0A917426932A5200DEAA51 /* manifest.json in Resources */,
+				FA0A917026932A5200DEAA51 /* _locales in Resources */,
+				FA0A917826932A5200DEAA51 /* content.js in Resources */,
+				FA0A917E26932A5200DEAA51 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A915A26932A5200DEAA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A917726932A5200DEAA51 /* background.js in Resources */,
+				FA0A917D26932A5200DEAA51 /* popup.css in Resources */,
+				FA0A917B26932A5200DEAA51 /* popup.html in Resources */,
+				FA0A917326932A5200DEAA51 /* images in Resources */,
+				FA0A917526932A5200DEAA51 /* manifest.json in Resources */,
+				FA0A917126932A5200DEAA51 /* _locales in Resources */,
+				FA0A917926932A5200DEAA51 /* content.js in Resources */,
+				FA0A917F26932A5200DEAA51 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0A913026932A5200DEAA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A916A26932A5200DEAA51 /* ViewController.swift in Sources */,
+				FA0A913826932A5200DEAA51 /* AppDelegate.swift in Sources */,
+				FA0A913A26932A5200DEAA51 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A914226932A5200DEAA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A916B26932A5200DEAA51 /* ViewController.swift in Sources */,
+				FA0A914926932A5200DEAA51 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A914E26932A5200DEAA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A916E26932A5200DEAA51 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A915826932A5200DEAA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A916F26932A5200DEAA51 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0A915526932A5200DEAA51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0A915126932A5200DEAA51 /* AnonAddy For Safari Extension (iOS) */;
+			targetProxy = FA0A915426932A5200DEAA51 /* PBXContainerItemProxy */;
+		};
+		FA0A915F26932A5200DEAA51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0A915B26932A5200DEAA51 /* AnonAddy For Safari Extension (macOS) */;
+			targetProxy = FA0A915E26932A5200DEAA51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA0A911E26932A5100DEAA51 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0A911F26932A5100DEAA51 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		FA0A913B26932A5200DEAA51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0A913C26932A5200DEAA51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0A913E26932A5200DEAA51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0A913F26932A5200DEAA51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0A914A26932A5200DEAA51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0A914B26932A5200DEAA51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA0A918026932A5200DEAA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA0A918126932A5200DEAA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA0A918326932A5200DEAA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XH3VR7955;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AnonAddy For Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstruct.AnonAddy-For-Safari.Extension";
+				PRODUCT_NAME = "AnonAddy For Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA0A918426932A5200DEAA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XH3VR7955;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AnonAddy For Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstruct.AnonAddy-For-Safari.Extension";
+				PRODUCT_NAME = "AnonAddy For Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0A918726932A5200DEAA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XH3VR7955;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AnonAddy For Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstruct.AnonAddy-For-Safari";
+				PRODUCT_NAME = "AnonAddy For Safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA0A918826932A5200DEAA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XH3VR7955;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AnonAddy For Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstruct.AnonAddy-For-Safari";
+				PRODUCT_NAME = "AnonAddy For Safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0A918A26932A5200DEAA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XH3VR7955;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AnonAddy For Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstruct.AnonAddy-For-Safari.Extension";
+				PRODUCT_NAME = "AnonAddy For Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA0A918B26932A5200DEAA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XH3VR7955;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AnonAddy For Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstruct.AnonAddy-For-Safari.Extension";
+				PRODUCT_NAME = "AnonAddy For Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA0A918E26932A5200DEAA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/AnonAddy For Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XH3VR7955;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AnonAddy For Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstruct.AnonAddy-For-Safari";
+				PRODUCT_NAME = "AnonAddy For Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA0A918F26932A5200DEAA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/AnonAddy For Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XH3VR7955;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AnonAddy For Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstruct.AnonAddy-For-Safari";
+				PRODUCT_NAME = "AnonAddy For Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0A911B26932A5100DEAA51 /* Build configuration list for PBXProject "AnonAddy For Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A918026932A5200DEAA51 /* Debug */,
+				FA0A918126932A5200DEAA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0A918226932A5200DEAA51 /* Build configuration list for PBXNativeTarget "AnonAddy For Safari Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A918326932A5200DEAA51 /* Debug */,
+				FA0A918426932A5200DEAA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0A918626932A5200DEAA51 /* Build configuration list for PBXNativeTarget "AnonAddy For Safari (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A918726932A5200DEAA51 /* Debug */,
+				FA0A918826932A5200DEAA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0A918926932A5200DEAA51 /* Build configuration list for PBXNativeTarget "AnonAddy For Safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A918A26932A5200DEAA51 /* Debug */,
+				FA0A918B26932A5200DEAA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0A918D26932A5200DEAA51 /* Build configuration list for PBXNativeTarget "AnonAddy For Safari (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A918E26932A5200DEAA51 /* Debug */,
+				FA0A918F26932A5200DEAA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0A911826932A5100DEAA51 /* Project object */;
+}
