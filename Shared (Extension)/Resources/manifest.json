@@ -4,7 +4,7 @@
 
     "name": "__MSG_extension_name__",
     "description": "__MSG_extension_description__",
-    "version": "1.0",
+    "version": "2.0.4",
 
     "icons": {
         "48": "images/icon-48.png",
@@ -14,18 +14,9 @@
         "512": "images/icon-512.png"
     },
 
-    "background": {
-        "scripts": [ "background.js" ],
-        "persistent": false
-    },
-
-    "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
-    }],
-
     "browser_action": {
-        "default_popup": "popup.html",
+        "default_popup": "app.html",
+        "default_title": "AnonAddy",
         "default_icon": {
             "16": "images/toolbar-icon-16.png",
             "19": "images/toolbar-icon-19.png",
@@ -33,6 +24,13 @@
             "38": "images/toolbar-icon-38.png"
         }
     },
-
-    "permissions": [ ]
+    
+    "content_security_policy": "script-src 'self' ; object-src 'self'",
+    
+    "permissions": [
+        "http://*/*",
+        "https://*/*",
+        "storage",
+        "activeTab"
+    ]
 }
